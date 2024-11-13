@@ -1,0 +1,72 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Type of mineral",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Bauxite",
+                "Alumina",
+                "Silica Sand",
+                "Limestone",
+                "Sand and Gravel",
+                "Marl and Fill",
+                "Shale",
+                "Pozzolan",
+                "Clay",
+                "Gypsum",
+                "Steam & Slow Speed Plants",
+                "Gas Turbines & Combined Cycle Plant",
+                "Hydro",
+                "Purchase from Independent Power Producers (IIPs) ",
+                "Total",
+                "Percentage Contribution of Jamaica Public Service Company (JPSCo)",
+                "Percentage Contribution of IIPs",
+                "Lossess & Accounted for",
+                "System losses as a percentage of net generation",
+                "Purchase from Independent Power Producers (IIPs)",
+                "Lossess & Accounted for ('000 MWh)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "(Tonnes)",
+                "('000 Mwh)",
+                "(%)",
+                "('000 MWh)",
+                "('000 Tonnes)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "12-2-2",
+  "title": "Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP"
+}

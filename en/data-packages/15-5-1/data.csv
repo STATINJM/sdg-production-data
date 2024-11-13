@@ -1,0 +1,117 @@
+Year,Type of species,Status,Type of specie,Value
+2016,Mammals,Endemic,,7
+2016,Birds,Endemic,,31
+2016,Amphibians,Endemic,,21
+2016,Conifers,Endemic,,2
+2016,Cycads,Endemic,,0
+2016,Cacti,Endemic,,5
+2016,Mammals,Threatened,,4
+2016,Birds,Threatened,,5
+2016,Amphibians,Threatened,,15
+2016,Conifers,Endemic,,2
+2016,Cycads,Endemic,,0
+2016,Cacti,Endemic,,2
+2017,Mammals,Endemic,,7
+2017,Birds,Endemic,,31
+2017,Amphibians,Endemic,,21
+2017,Conifers,Endemic,,2
+2017,Cycads,Endemic,,0
+2017,Cacti,Endemic,,5
+2017,Mammals,Threatened,,4
+2017,Birds,Threatened,,5
+2017,Amphibians,Threatened,,15
+2017,Conifers,Endemic,,2
+2017,Cycads,Endemic,,0
+2017,Cacti,Endemic,,2
+2018,Mammals,Endemic,,7
+2018,Birds,Endemic,,31
+2018,Amphibians,Endemic,,21
+2018,Conifers,Endemic,,2
+2018,Cycads,Endemic,,1
+2018,Cacti,Endemic,,5
+2018,Mammals,Threatened,,4
+2018,Birds,Threatened,,5
+2018,Amphibians,Threatened,,15
+2018,Conifers,Endemic,,2
+2018,Cycads,Endemic,,0
+2018,Cacti,Endemic,,2
+2016,,Extinct,Animals,4
+2016,,Critical Endangered,Animals,20
+2016,,Endangered,Animals,30
+2016,,Vulnerable,Animals,47
+2016,,Near Threatened,Animals,41
+2016,,Data Deficient,Animals,89
+2016,,Least Concern,Animals,1149
+2016,,Total,Animals,1380
+2016,,Extinct,Plants,2
+2016,,Critical Endangered,Plants,41
+2016,,Endangered,Plants,55
+2016,,Vulnerable,Plants,118
+2016,,Near Threatened,Plants,75
+2016,,Data Deficient,Plants,7
+2016,,Least Concern,Plants,135
+2016,,Total,Plants,433
+2017,,Extinct,Animals,3
+2017,,Critical Endangered,Animals,22
+2017,,Endangered,Animals,32
+2017,,Vulnerable,Animals,48
+2017,,Near Threatened,Animals,41
+2017,,Data Deficient,Animals,87
+2017,,Least Concern,Animals,1173
+2017,,Total,Animals,1406
+2017,,Extinct,Plants,2
+2017,,Critical Endangered,Plants,41
+2017,,Endangered,Plants,55
+2017,,Vulnerable,Plants,118
+2017,,Near Threatened,Plants,75
+2017,,Data Deficient,Plants,7
+2017,,Least Concern,Plants,146
+2017,,Total,Plants,444
+2018,,Extinct,Animals,3
+2018,,Critical Endangered,Animals,21
+2018,,Endangered,Animals,32
+2018,,Vulnerable,Animals,50
+2018,,Near Threatened,Animals,40
+2018,,Data Deficient,Animals,85
+2018,,Least Concern,Animals,1183
+2018,,Total,Animals,1414
+2018,,Extinct,Plants,2
+2018,,Critical Endangered,Plants,41
+2018,,Endangered,Plants,56
+2018,,Vulnerable,Plants,118
+2018,,Near Threatened,Plants,76
+2018,,Data Deficient,Plants,7
+2018,,Least Concern,Plants,184
+2018,,Total,Plants,484
+2020,,Extinct,Animals,3
+2020,,Critical Endangered,Animals,25
+2020,,Endangered,Animals,48
+2020,,Vulnerable,Animals,53
+2020,,Near Threatened,Animals,43
+2020,,Data Deficient,Animals,76
+2020,,Least Concern,Animals,1329
+2020,,Total,Animals,1577
+2020,,Extinct,Plants,2
+2020,,Critical Endangered,Plants,43
+2020,,Endangered,Plants,54
+2020,,Vulnerable,Plants,118
+2020,,Near Threatened,Plants,77
+2020,,Data Deficient,Plants,7
+2020,,Least Concern,Plants,435
+2020,,Total,Plants,736
+2022,,Extinct,Animals,4
+2022,,Critical Endangered,Animals,42
+2022,,Endangered,Animals,49
+2022,,Vulnerable,Animals,53
+2022,,Near Threatened,Animals,47
+2022,,Data Deficient,Animals,70
+2022,,Least Concern,Animals,1341
+2022,,Total,Animals,1606
+2022,,Extinct,Plants,2
+2022,,Critical Endangered,Plants,42
+2022,,Endangered,Plants,55
+2022,,Vulnerable,Plants,118
+2022,,Near Threatened,Plants,76
+2022,,Data Deficient,Plants,9
+2022,,Least Concern,Plants,550
+2022,,Total,Plants,736

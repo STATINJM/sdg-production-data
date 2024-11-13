@@ -1,0 +1,63 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Source of primary energy supply",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Petroleum",
+                "Hydropower",
+                "Wind",
+                "Coal",
+                "Bagasse",
+                "Total Alternative Energy",
+                "Total",
+                "% Renewable Share",
+                "Natural Gas",
+                "Solar",
+                "Fuelwood",
+                "Per cent Renewable Share",
+                " Per cent Renewable Share",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "('000boe)",
+                "per cent",
+                "('000 boe)",
+                "(%)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "7-2-1",
+  "title": "Renewable energy share in the total final energy consumption"
+}

@@ -1,0 +1,88 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Name of test",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Grade 4 PEP Literacy Test",
+                "Grade 4 PEP Numeracy Test",
+                "Grade 6 Primary Exit Profile (Mathematics)",
+                "Grade 6 Primary Exit Profile (Language Arts)",
+                "Grade 4 Literacy Test",
+                "Grade 4 Numeracy Test",
+                "Grade 6 Achievement Test (Language Arts)",
+                "Grade 6 Achievement Test (Mathematics)",
+                ""
+              ]
+            },
+            "title": "Name of test"
+          },
+          {
+            "name": "Descriptor",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion of students achieving mastery",
+                "Proportion of Students at Developing Level",
+                "Proportion of Students at Proficient Level",
+                "Proportion of Students at Highly Proficient Level",
+                "Mean Score in Grade Six Achievement Test",
+                ""
+              ]
+            },
+            "title": "Descriptor"
+          },
+          {
+            "name": "Geographical region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Jamaica",
+                "Male",
+                "Female",
+                ""
+              ]
+            },
+            "title": "Geographical region"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Male",
+                "Female",
+                ""
+              ]
+            },
+            "title": "Sex"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "4-1-1",
+  "title": "Proportion of children and young people (a) in grades 2/3; (b) at the end of primary; and (c) at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex"
+}

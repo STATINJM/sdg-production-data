@@ -1,0 +1,1 @@
+{"data":{"Year":[2014,2015,2016,2017,2018,2014,2018,2019,2020,2021],"Geographical region":["Jamaica","Jamaica","Jamaica","Jamaica","Jamaica","Jamaica","Jamaica","Jamaica","Jamaica","Jamaica"],"Unit":["%","%","%","%","%",null,"%","%","%","%"],"Value":[32.7,32.6,32.5,32.4,32.4,40.1,39.8,39.7,39.7,39.7]},"edges":{"From":["Geographical region"],"To":["Unit"]}}

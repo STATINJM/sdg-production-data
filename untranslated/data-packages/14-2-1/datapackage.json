@@ -1,0 +1,75 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Monitored Area",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Blue Lagoon (Portland)",
+                "Monkey Island",
+                "Oracabessa Bay Special Fishery Conservation Area",
+                "Sandals Boscobel Special Fishery Conservation Area",
+                "Ocho Rios Marine Park",
+                "Discovery Bay",
+                "Falmouth",
+                "Montego Bay Marine Park",
+                "Hopewell - Green Island (Hanover)",
+                "Negril Marine Park",
+                "Sandals Whitehouse Special Fishery Conservation Area",
+                "Port Royal Protected Area",
+                "Belmont",
+                "Savanna-la-mar",
+                "Portland Bight Protected Area",
+                "CRHI (overall mean)",
+                "Kingston",
+                "Portland",
+                "Trelawmy",
+                "Westmoreland",
+                "Negril (Hanover/Westmoreland)",
+                "Clarendon",
+                "St Catherine",
+                "St James",
+                "Trelawny",
+                "Average",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "(Health Index)",
+                "Number of Sites",
+                "Cumulative Mean Beach Width (m)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "14-2-1",
+  "title": "Number of countries using ecosystem-based approaches to managing marine areas"
+}

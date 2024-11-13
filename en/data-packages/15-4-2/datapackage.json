@@ -1,0 +1,91 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Kapos mountain class",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "k1",
+                "k2",
+                "k3",
+                "k4",
+                "k5",
+                ""
+              ]
+            },
+            "title": "Kapos mountain class"
+          },
+          {
+            "name": "Ipcc class",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Forest",
+                "Cropland",
+                "Grassland",
+                "Wetland",
+                "Settlement",
+                "Other Land",
+                "MGCI",
+                "MGCI All",
+                "MGC",
+                ""
+              ]
+            },
+            "title": "Ipcc class"
+          },
+          {
+            "name": "Unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "(%)",
+                "(km2 '000)",
+                "(Area %)",
+                "(km2 ‘000)",
+                "(area %)",
+                ""
+              ]
+            },
+            "title": "Unit"
+          },
+          {
+            "name": "Category",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Sum of green cover classes",
+                "Sum of other land cover classes",
+                ""
+              ]
+            },
+            "title": "Category"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "15-4-2",
+  "title": "(a) Mountain Green Cover Index and (b) proportion of degraded mountain land"
+}

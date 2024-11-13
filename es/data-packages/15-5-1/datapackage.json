@@ -1,0 +1,78 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Año"
+          },
+          {
+            "name": "Type of species",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Mammals",
+                "Birds",
+                "Amphibians",
+                "Conifers",
+                "Cycads",
+                "Cacti",
+                ""
+              ]
+            },
+            "title": "Type of species"
+          },
+          {
+            "name": "Status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Endemic",
+                "Threatened",
+                "Extinct",
+                "Critical Endangered",
+                "Endangered",
+                "Vulnerable",
+                "Near Threatened",
+                "Data Deficient",
+                "Least Concern",
+                "Total",
+                ""
+              ]
+            },
+            "title": "Status"
+          },
+          {
+            "name": "Type of specie",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Animals",
+                "Plants",
+                ""
+              ]
+            },
+            "title": "Type of specie"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "15-5-1",
+  "title": "Red List Index"
+}

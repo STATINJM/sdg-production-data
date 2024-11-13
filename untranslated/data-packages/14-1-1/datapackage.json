@@ -1,0 +1,60 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Type of Waste Collected",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Beverage bottles (plastic)",
+                "Other",
+                "Bottle caps (plastic)",
+                "Plastic pieces (tiny trash)",
+                "Other plastic bags",
+                "Foam pieces (tiny trash)",
+                "Beverage bottles (glass)",
+                "Cup plate (plastic)",
+                "Food wrappers (candy chips etc.)",
+                "Cups plates (foam)",
+                "Take out/away containers (foam)",
+                "Forks knives and spoons",
+                "Food wrappers (candy chips)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "(%)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "14-1-1",
+  "title": "(a) Index of coastal eutrophication; and (b) plastic debris density"
+}

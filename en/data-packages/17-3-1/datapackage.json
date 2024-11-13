@@ -1,0 +1,65 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Category",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Official Development Assistance (ODA)",
+                "Foreign Direct Investment (FDI)",
+                "% ODA / Central Government Expenditure",
+                "% FDI / Central Government Expenditure",
+                "Remittance Inflows",
+                "GDP (Current)",
+                "Remittance as a  proportion of GDP",
+                "Official Development Assistance (ODA) ",
+                "Foreign Direct Investment (FDI) ",
+                ""
+              ]
+            },
+            "title": "Category"
+          },
+          {
+            "name": "Unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "(J$ Million)",
+                "(Per cent)",
+                "(US$Mn)",
+                "14.8",
+                "14.4",
+                "14.0",
+                ""
+              ]
+            },
+            "title": "Unit"
+          },
+          {
+            "name": "Value",
+            "type": "string",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "17-3-1",
+  "title": "Foreign direct investment, official development assistance and South-South cooperation as a proportion of gross national income"
+}

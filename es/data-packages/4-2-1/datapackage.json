@@ -1,0 +1,112 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Año"
+          },
+          {
+            "name": "Development Type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Literacy-Numeracy",
+                "Physical",
+                "Social-Emotional",
+                "Learning",
+                "Early Childhood Development Index Score",
+                "Number of children age 36-59 months",
+                ""
+              ]
+            },
+            "title": "Development Type"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Male",
+                "Female",
+                ""
+              ]
+            },
+            "title": "Sex"
+          },
+          {
+            "name": "Geographic Location",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "KMA",
+                "Other Towns",
+                "Urban",
+                "Rural",
+                ""
+              ]
+            },
+            "title": "Geographic Location"
+          },
+          {
+            "name": "Age Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "36-47 months",
+                "48-59 months",
+                ""
+              ]
+            },
+            "title": "Age Group"
+          },
+          {
+            "name": "Preschool attendance",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Attending preschool",
+                "Not attending preschool",
+                ""
+              ]
+            },
+            "title": "Preschool attendance"
+          },
+          {
+            "name": "Wealth Index Quintiles",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Poorest",
+                "Second",
+                "Middle",
+                "Fourth",
+                "Richest",
+                "Total",
+                ""
+              ]
+            },
+            "title": "Wealth Index Quintiles"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "4-2-1",
+  "title": "Proportion of children aged 24-59 months who are developmentally on track in health, learning and psychosocial well-being, by sexi"
+}

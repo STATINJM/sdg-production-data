@@ -1,0 +1,78 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Vaccination Indicator",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "BCG",
+                "Polio 1",
+                "Polio 2",
+                "Polio 3",
+                "DPT 1",
+                "DPT 2",
+                "DPT 3",
+                "Measles",
+                "Hep B 1",
+                "Hep B 2",
+                "Hep B 3",
+                "Hib 1",
+                "Hib 2",
+                "Hib 3",
+                "All vaccinations",
+                "All vaccinations excluding HIB",
+                "No vaccinations",
+                "Number of children age 18-29 months",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Time Vaccinated",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Vaccinated at any time before the survey",
+                "Vaccinated by 12 months of age",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Source of Vaccination Record",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Vaccination card",
+                "Mother's report",
+                "Either",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "3-b-1",
+  "title": "Proportion of the target population covered by all vaccines included in their national programme"
+}

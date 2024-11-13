@@ -1,0 +1,52 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Financial Soundness Indicators",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Expenses to net premium (expense ratio)",
+                ""
+              ]
+            },
+            "title": "Financial Soundness Indicators"
+          },
+          {
+            "name": "Type of  Institution",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Life Insurance",
+                ""
+              ]
+            },
+            "title": "Type of  Institution"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "10-5-2",
+  "title": "Financial Soundness Indicators"
+}
